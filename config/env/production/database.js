@@ -10,7 +10,7 @@ module.exports = () => ({
       database: config.database,
       user: config.user,
       password: config.password,
-      ssl: false,
+      ssl: true,
     },
     debug: false,
   },
